@@ -1,7 +1,7 @@
-# flintex-monkey
+# Rogueport
 
-Script to add a postMessage API to Netflix.
+These are scripts to add postMessage APIs (for controlling an embedded page,
+such as a media player) for sites that don't already provide an API like this.
 
-## Why flintex-monkey?
-
-Because it's sort of a monkey-patch script, akin to the way GreaseMonkey / TamperMonkey works.
+These scripts are then packaged by extensions like
+https://github.com/rogueport/rogueport-crx for installation in a browser.
