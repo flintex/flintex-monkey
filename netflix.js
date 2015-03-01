@@ -26,14 +26,14 @@
         event: 'response',
         id: incoming.id,
         response: message
-      }, origin || '*');
+      }, origin == 'null' ? '*' : origin);
     }
     function reject(message) {
       source.postMessage({
         event: 'error',
         id: incoming.id,
         response: message
-      }, origin || '*');
+      }, origin == 'null' ? '*' : origin);
     }
 
     switch(incoming.api) {
